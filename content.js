@@ -26,15 +26,9 @@ const Startlike = (am ,c=0) => {
          const T = am.time;
          var tInterval=setTimeout(() => {
          var lbtn = document.querySelector ('div[aria-label="Like"]');
+         scrollToPos(lbtn)
          lbtn.click()
-         const scrollToPos = (el) => {
-          $("html,body").animate(
-           { 
-           scrollTop: $(el).offset().top - 15,
-           },
-           "slow"
-          );
-        };
+         
          console.log("Post Liked");
          l++;
          console.log("Find the next post");
@@ -66,4 +60,13 @@ const notifyUser = (auto,c = 0) => {
       };
   
     fbport.postMessage(auto);
+  };
+
+  const scrollToPos = (el) => {
+    $("html,body").animate(
+     { 
+     scrollTop: $(el).offset().top - 15,
+     },
+     "slow"
+    );
   };
