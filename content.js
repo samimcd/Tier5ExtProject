@@ -27,6 +27,14 @@ const Startlike = (am ,c=0) => {
          var tInterval=setTimeout(() => {
          var lbtn = document.querySelector ('div[aria-label="Like"]');
          lbtn.click()
+         const scrollToPos = (el) => {
+          $("html,body").animate(
+           { 
+           scrollTop: $(el).offset().top - 15,
+           },
+           "slow"
+          );
+        };
          console.log("Post Liked");
          l++;
          console.log("Find the next post");
