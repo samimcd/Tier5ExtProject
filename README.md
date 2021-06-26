@@ -9,3 +9,5 @@ WHY PEOPLE USE FACEBOOK AUTOLIKER: Everyone likes to have its posts liked.It sho
 HOW TO USE: 1. At first, you have to add this "Facabook Extension" to your chrome extensions, 2. Then you have to pinned this extension on the top, 3. After that, you have to login in your own Facebook account, 4. Then you have to reload "Facebook Extension" and after that, you have to refresh your facebook page, 5. Then you have to click on the extension which will be in the top of right side in your chrome, 6. Then you have to put your valid gmail and password of Facebook account, 7. After that,you have to give time(in seconds), 8. Then you will see the results that how the extension will be work.
 
 Here is a small reference through a video link on how to use this extension:
+
+https://www.loom.com/share/e89fd1e893884455b03c3b5bdcdb0182
